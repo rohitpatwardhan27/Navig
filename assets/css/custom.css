@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+body{
+    font-family: 'poppins', 'sans-serif';
+    margin-top: 7.4rem;
+}
+
+p{
+    font-size: 16.67px;
+    font-weight: 500;
+    color: #535359;
+}
+
+header, .hero{
+    background-color: #DDFBDC;
+}
+
+.navbar{
+    background-color: #DDFBDC !important;
+    padding: 2rem 12rem;
+}
+
+.navbar-brand{
+    font-size: 27.6px;
+
+}
+
+.navbar-nav{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav li{
+    padding: 0 1rem;
+}
+
+.navbar-nav li a{
+    color: #000000 !important;
+}
+
+.navbar-nav li button a:hover{
+    color: #fff !important;
+}
+
+/*==== Header Content =====*/
+.head-content{
+    color: #455A64;
+    background-image: url('../image/Homebanner_bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10.1rem 0 11.6rem 0;
+
+}
+
+.head-content .btn-head{
+    background-color: #456A76;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    padding: 9px 25px;
+}
+
+/*======= Benefits Section =======*/
+.benefits{
+margin-top: 3.6rem;
+}
+
+.benefit-box{
+    background-color: #DDFBDC;
+    border-radius: 13px;
+    box-shadow: 0px 9px 17px rgba(0, 0, 0, 0.09);
+    padding: 46px 30px;
+    border: none;
+    margin-right: 3rem;
+}
+
+.benefit-box:nth-child(3n) {
+	margin-right: 0;
+}
+
+.benefit-box h4{
+    font-size: 17.8px;
+    font-weight: 700;
+    margin-top: 14px;
+}
+
+.benefit-box p{
+    margin-bottom: 0;
+    color: #353642;
+}
+
+/*======== Info Section =========*/
+.info{
+    margin-top: 7.9rem;
+}
+
+.info h1{
+    font-size: 42px;
+    font-weight: 700;
+    color: #455A64;
+    margin-bottom: 1rem;
+}
+
+/*======= About App ======*/
+.about-app{
+    background-color: #DDFBDC;
+    border-radius: 48.7417px;
+    padding: 4.1rem 5.8rem;
+    margin-top: 7.9rem;
+}
+
+.app h4{
+    font-size: 17.3592px;
+    color: #37474F;
+    font-weight: 700;
+}
+
+
+
+/* Media Query */
+
+
+
+@media only screen and (max-width: 992px){
+    .navbar{
+        padding: 2rem 2rem;
+    }
+
+    .navbar-nav li{
+        padding: 0;
+    }
+
+    .head-content{
+        padding: 2rem 1rem;
+    }
+
+    .head-content h1{
+        font-size: 2rem;
+    }
+
+    .head-img{
+        margin-top: 2rem;
+    }
+
+    .benefit-box p{
+        font-size: 15px;
+    }
+
+    .app-img img{
+        width: 50%;
+    }
+
+    .info-img img{
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    
+    body{
+    
+    margin-top:3rem;
+    }
+    
+    .navbar{
+        padding: 0 1rem;
+    }
+    .navbar-nav{
+        display: block;
+    }
+
+
+
+    .d-flex{
+        flex-direction: column;
+    }
+
+    .benefit-box {
+        margin-right: 0;
+        margin-top: 1.5rem;
+    }
+
+    .app-img img{
+        width: 60%;
+    }
+}
+
+
