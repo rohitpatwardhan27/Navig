@@ -116,6 +116,15 @@ margin-top: 3.6rem;
 }
 
 
+/*=========== Footer ============*/
+.copyright{
+    background-color: #DDFBDC;
+    margin-top: 7.9rem;
+    padding: 20px;
+    text-align: center;
+}
+
+
 
 /* Media Query */
 
